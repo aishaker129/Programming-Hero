@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./css/style.css">
+  <title>MY Portfilo</title>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="px-20 py-7">
+  <!-- header start  -->
+  <header class="bg-slate-100 py-7  ">
+    <!-- navbar start  -->
+    <nav class=" flex justify-between">
+      <h1 class="ms-7 text-3xl font-semibold text-[#5E3AEE]"><code>&lt;/reboot13&gt;</code></h1>
+      <ul class="flex gap-10 me-7 text-2xl">
+        <li><a href="#" class="font-bold">Home</a></li>
+        <li><a href="#">Project</a></li>
+        <li><a href="#">About Me</a></li>
+        <li><a href="#">Contuct</a></li>
+      </ul>
+    </nav>
+    <!-- navbar end  -->
+    <!-- bannar start  -->
+    <div class="banar h-[547px] bg-[#F0F0F5;] flex justify-around items-center mt-7">
+      <div>
+        <div>
+          <h1 class="font-bold text-4xl">Hello,<br> I am <span class="text-[#5E3AEE]">Akhlakul Islam.</span></h1>
+          <p class="font-bold text-2xl text-[#696969] my-4">Web Designer/Developer</p>
+        </div>
+        <div class="my-7">
+          <button class="px-10 py-2 bg-[#FFFFFF] rounded-md drop-shadow-2xl">Contact</button>
+          <button class="px-10 py-2 bg-[#5E3AEE] ms-7 rounded-md drop-shadow-2xl">Project</button>
+
+        </div>
+      </div>
+      <div>
+        <img src="./Image/laptop 1.png" alt="">
+      </div>
+    </div>
+    <!-- bannar end  -->
+  </header>
+  <!-- header end  -->
+
+  <!-- project part start -->
+
+  <section class="w-full h-[400px] flex justify-center items-center">
+
+    <div class="project w-full h-[200px] border-y-stone-300 flex justify-around items-center">
+      <div class="text-center">
+        <h1 class="font-bold text-5xl">50+</h1>
+        <p class="text-2xl text-[#BFB8B8]">Projects Completed</p>
+      </div>
+      <div class="text-center">
+        <h1 class="font-bold text-5xl">45+</h1>
+        <p class="text-2xl text-[#BFB8B8]">Github Repository</p>
+      </div>
+      <div class="text-center">
+        <h1 class="font-bold text-5xl">5+</h1>
+        <p class="text-2xl text-[#BFB8B8]">Years of Experience</p>
+      </div>
+
+      <div class="text-center">
+        <h1 class="font-bold text-5xl">700+</h1>
+        <p class="text-2xl text-[#BFB8B8]">Youtube Subscribers</p>
+      </div>
+
+    </div>
+  </section>
+  <!-- project part end -->
+<!-- About section start  -->
+  <section class="about w-full h-[493px] bg-[#0F1221] flex justify-around ">
+    <div class=" mt-28">
+      <div class="w-[180px] h-[30px] bg-[#5E3AEE]"></div>
+      <div>
+        <h1 class="text-white text-4xl font-extrabold py-4">A Bit About Me...</h1>
+        <p class="text-white text-2xl">Hello, My name is Akhlakul Islam Shaker. <br>
+          I am a CSE Undergraduate at BUBT. <br>
+          I’m currently learning UI/UX development.<br> Checkout my  projects on github. <br> <a
+            href="https://github.com/aishaker129/Programming-Hero" class="text-[#5E3AEE]">aishaker129</a>
+        </p>
+      </div>
+    </div>
+    <div class="">
+      <img src="./Image/Mockup.png" alt="">
+    </div>
+  </section>
+  <!-- About section end  -->
+  <!-- Skills section start -->
+<section class="skill-section mt-16 ms-20 mb-16">
+  <h1 class="text-[#5E3AEE] text-6xl font-extrabold">Skills</h1>
+  <div class="w-full grid grid-cols-4 justify-between ms-20">
+    <h1 class="p-7 text-2xl ">HTML</h1>
+    <h1 class="p-7 text-2xl ">PHP</h1>
+    <h1 class="p-7 text-2xl ">SQL</h1>
+    <h1 class="p-7 text-2xl ">Python</h1>
+    <h1 class="p-7 text-2xl ">CSS</h1>
+    <h1 class="p-7 text-2xl ">JavaScript</h1>
+    <h1 class="p-7 text-2xl ">C++</h1>
+    <h1 class="p-7 text-2xl ">C</h1>
+    <h1 class="p-7 text-2xl ">Java</h1>
+    <h1 class="p-7 text-2xl ">Notejs</h1>
+    <h1 class="p-7 text-2xl ">Typescript</h1>
+    <h1 class="p-7 text-2xl ">UI/UX Design</h1>
+  </div>
+</section>
+  <!-- Skills section end -->
+
+  <!-- Contuct section start  -->
+
+  <section class="contuct-section h-[576px] w-full bg-[#5E3AEE] flex justify-around">
+    <div class="text mt-10">
+      <h1 class="text-6xl text-[#FFFFFF] font-extrabold">Contuct</h1>
+      <p class="text-[#FFFFFF] text-2xl mt-7">Want a website for your brand and business? <br>I design what you desire....</p>
+      <div class="mt-7">
+        <img src="./Image/hshs 1.png" alt="">
+      </div>
+    </div>
+    <form action="#" class="mt-10">
+      <label for="name" class="text-[#ffffff] font-bold text-3xl">Name</label><br>
+      <input type="text" name="name" id="name" class="w-[583px] h-[53px] bg-gray-400" required><br>
+      <label for="email" class="text-[#ffffff] font-bold text-3xl">Email</label><br>
+      <input type="email" name="email" id="email" class="w-[583px] h-[53px] bg-gray-400" required><br>
+      <label for="text" class="text-[#ffffff] font-bold text-3xl">Message</label><br>
+      <input type="text" name="text" id="text" class="w-[583px] h-[150px] bg-gray-400" required><br><br>
+      <input type="submit" value="Submit" class="w-[583px] h-[53px] text bg-[#ffffff]">
+
+
+    </form>
+  </section>
+  <!-- Contuct section end -->
+
+  <!-- footer start  -->
+
+  <footer class="text text-center w-full h-[100px] bg-[#FFFFFF] justify-center items-center">
+    <div class="text items-center pt-10 text-[#5E3AEE] text-3xl font-bold"><a href="https://github.com/aishaker129/Programming-Hero">@aishaker129</a></div>
+  </footer>
+  <!-- footer end -->
+</body>
+
+</html>
